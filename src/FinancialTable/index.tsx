@@ -2,8 +2,8 @@ import { useFinancialTable } from "../hooks/useFinancialTable";
 import CreateFieldForm from "./utils/CreateFieldForm";
 import FieldRow from "./utils/FieldRow";
 import { Table } from "./utils/types";
-import "./styles.css";
 import { memo } from "react";
+import "./styles.css";
 
 interface Props {
   table: Table;
