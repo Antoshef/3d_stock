@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+input {
+  width: 100%;
+}
+
+.financial-table__wrapper {
+  width: 100%;
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+}
+
+.financial-table__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: cornflowerblue;
+  color: white;
+  padding-left: 1rem;
+}
+
+.financial-table__field-name {
+  text-align: left;
+}
+
+.financial-table__close-btn {
+  background-color: white;
+  border: none;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.financial-table__button {
+  background-color: white;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}

@@ -1,0 +1,78 @@
+.create-field-form {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .create-field-form {
+    flex-direction: column;
+  }
+}
+
+.financial-table--small-field {
+  max-width: 7rem;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .financial-table--small-field {
+    max-width: fit-content;
+  }
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.financial-table--small-field:focus,
+.financial-table--small-field:focus-visible {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.financial-table--small-field.input-error {
+  border: 1px solid red;
+}
+
+.financial-table--small-field.input-error:focus,
+.financial-table--small-field.input-error:focus-visible {
+  outline: none;
+  border: 1px solid red;
+}
+
+.nested-field__button {
+  margin-left: 2rem;
+  background-color: white;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nested-field__label {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  width: 100%;
+  cursor: initial;
+}
+
+.financial-table__field-label--expanded {
+  cursor: pointer;
+}
+
+.financial-table__field {
+  display: flex;
+  align-items: center;
+}
+
+.nested-field {
+  display: flex;
+  flex-direction: row;
+}
